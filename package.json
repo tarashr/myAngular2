@@ -1,0 +1,27 @@
+{
+  "name": "myAngular2",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "@angular/common": "2.2.4",
+    "@angular/compiler": "2.2.4",
+    "@angular/core": "2.2.4",
+    "@angular/forms": "2.2.4",
+    "@angular/http": "2.2.4",
+    "@angular/platform-browser": "2.2.4",
+    "@angular/platform-browser-dynamic": "2.2.4",
+    "@angular/router": "3.2.4",
+
+    "core-js": "^2.4.0",
+    "rxjs": "5.0.0-beta.12",
+    "systemjs": "0.19.37",
+    "zone.js": "0.6.26"
+  },
+  "devDependencies": {
+    "live-server": "0.8.2",
+    "typescript": "2.0.10"
+  }
+}
