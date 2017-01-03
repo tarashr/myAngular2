@@ -6,7 +6,7 @@ import {VisitProdDetailGuard} from "./guards/VisitProdDetailGuard";
 
 const routes: Routes = [
     {path: '',                    component: HomeComponent},
-    {path: 'products/:prodTitle', component: ProductDetailComponent, canActivate: [VisitProdDetailGuard],
+    {path: 'products/:productId', component: ProductDetailComponent, canActivate: [VisitProdDetailGuard],
         canDeactivate: [LeaveProdDetailGuard],
     }
 ];
