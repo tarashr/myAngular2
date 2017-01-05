@@ -23,6 +23,7 @@ System.config({
         '@angular/router'                  : {main: 'router.umd.min.js'},
         '@angular/platform-browser'        : {main: 'platform-browser.umd.min.js'},
         '@angular/platform-browser-dynamic': {main: 'platform-browser-dynamic.umd.min.js'},
+        '@angular/forms'                   : {main: 'forms.umd.min.js'},
         'classes'                          : {main: 'index', defaultExtension: 'ts'}
     }
 });
